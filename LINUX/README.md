@@ -51,3 +51,46 @@
 * apt – Synced package listings and pulled required utilities (plocate, acl).
 * history – Tracked your commands to review what you practiced.
 * clear – Cleaned up the screen buffer for a fresh workspace.
+
+File & Text Processing Commands
+tee: Diverts text output to both the screen and a file (-a appends).
+
+cat: Displays the entire contents of a file.
+
+more: View file text page-by-page.
+
+less: View file text with backward/forward navigation (better version of more).
+
+cut: Extracts sections or columns from lines of text.
+
+awk: Powerful text processing pattern scanning language (used for grabbing columns or changing fields).
+
+uniq: Filters out or reports repeated lines in a file.
+
+Search & Text Filtering Commands
+grep: Searches text for specific patterns (using flags like -i for case-insensitive, -c for count, and -v for invert search).
+
+egrep: Extended grep that supports complex regex patterns (like the OR | operator).
+
+File & Directory Navigation
+ls: Lists files and directories.
+
+ll: Shortcut/alias for ls -l (long format listing).
+
+mkdir: Creates a new directory.
+
+cd: Changes the current directory.
+
+System Monitoring & Information
+htop: Interactive, visual process viewer and system resource monitor.
+
+top: Standard command-line process management tool.
+
+df: Displays available and used disk space on filesystem mounts (with -h for human-readable format).
+
+Other Utilities
+echo: Prints strings of text to the terminal.
+
+tail: Displays the last few lines of a file or output stream (e.g., tail -3).
+
+vim: Command-line text editor used to create and modify files.

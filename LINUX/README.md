@@ -235,3 +235,28 @@ This document summarizes the essential Linux commands used for system monitoring
 * `crontab -e`          : Edit scheduled cron jobs.
 * `sosreport`           : Generate a system diagnostic/configuration report.
 * `python3 -m http.server`: Start a local HTTP server in the current directory.
+# Linux & Git Workflow Commands
+
+This document summarizes the essential Linux commands and Git operations performed during your recent sessions.
+
+## Linux System & Alias Management
+
+| Command | Description |
+| :--- | :--- |
+| `alias l='ls -lrth'` | Creates a shortcut 'l' to list files in long format, sorted by modification time (reverse). |
+| `alias dir='ls -l \| grep ^d'` | Creates a shortcut 'dir' to list only directories in the current path. |
+| `alias tellme='...'` | A composite alias running: `whoami`, `hostnamectl`, `hostname`, directory listing, `pwd`, and kernel version (`uname -r`). |
+| `unalias tellme` | Removes the 'tellme' alias from the current shell session. |
+| `ls -a` | Lists all files, including hidden files (those starting with a dot). |
+| `vim .bashrc` | Opens the Bash configuration file for editing to make aliases persistent. |
+| `cat .bashrc` | Displays the contents of the Bash configuration file. |
+| `sudo su` | Switches the current shell session to the superuser (root). |
+| `history` | Displays the history of previously executed commands. |
+
+## Git Version Control
+
+| Command | Description |
+| :--- | :--- |
+| `git add .` | Stages all modified and new files in the current directory for the next commit. |
+| `git commit -m "..."` | Saves the staged changes to the local repository with a descriptive commit message. |
+| `git push` | Pushes the local commits to the configured remote repository. |
